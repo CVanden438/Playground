@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412074648608f6d438dad191311adefe, type: 3}
+  m_Name: Waterbolt
+  m_EditorClassIdentifier: 
+  spellName: Waterbolt
+  spellDescription: Fires a bolt of water
+  damage: 20
+  manaCost: 10
+  cooldown: 2
+  range: 5
+  prefab: {fileID: 2733505165653312224, guid: 677e75e1ee257f24dbaece055fab8104, type: 3}

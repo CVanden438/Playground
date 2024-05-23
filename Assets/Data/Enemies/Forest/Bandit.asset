@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Bandit
+  m_EditorClassIdentifier: 
+  enemyName: Bandit
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -1631771832, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: 1649962255, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: -1028674148, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: -660271513, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  moveSprites:
+  - {fileID: -278062293, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: 47634280, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: -1989683369, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  - {fileID: 1120962780, guid: 72145fe3d7feebe43a71fcfce89bab0e, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 3674ca95c472ca3408412974c8bda667, type: 2}
+  - {fileID: 11400000, guid: 6ab2bb7b30628624590a640492f29ea4, type: 2}
+  - {fileID: 11400000, guid: 80f9ace81f28d4e449bc9bf72a324c0a, type: 2}
+  dropTable: {fileID: 11400000, guid: 27991731708abba46bd6e58f800fad04, type: 2}
+  prefab: {fileID: 5109598724554420387, guid: 9aaac2885785c8a4a9d11450d7cebb42, type: 3}

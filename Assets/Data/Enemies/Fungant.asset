@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Fungant
+  m_EditorClassIdentifier: 
+  enemyName: Fungant
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -742915971, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: -267775178, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: 8172389, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: -1657915165, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  moveSprites:
+  - {fileID: 1958979421, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: -451847106, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: -617786381, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  - {fileID: -872178119, guid: 9e2458af43504b14883958e99bae439c, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 4b8df667e606a4a4e9bd62070d331ff7, type: 2}
+  - {fileID: 11400000, guid: 4ea525e03ceb569419d75d9d6d18c567, type: 2}
+  - {fileID: 11400000, guid: 321664b6c03c2cc408fa20745dc5fe4e, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: fe348044f3b71aa4c8ecca4511138468, type: 3}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Slimeball
+  m_EditorClassIdentifier: 
+  enemyName: Slimeball
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -1587156881, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: 415864333, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: -1024410279, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: 1497518326, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  moveSprites:
+  - {fileID: 2045921061, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: -187875382, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: 1835780960, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  - {fileID: 1695919753, guid: 12142cef2ac154e4b8e5ad53f94573b9, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 2d01a23110e1f7b4abc338b35e625360, type: 2}
+  - {fileID: 11400000, guid: 72db5da104dc907449790bf76ea2fa27, type: 2}
+  - {fileID: 11400000, guid: 51cd2b1741bcc4f4293cf552134a4545, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: a615df9ee50249d4d98ab5542813dbbf, type: 3}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Dinosaur
+  m_EditorClassIdentifier: 
+  enemyName: Dinosaur
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 1697370622, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -1972564278, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: 1438383265, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -1283026635, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  moveSprites:
+  - {fileID: 883895314, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -74833498, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -1617573453, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: 1222504284, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -359726623, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -1087185601, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: -78037792, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  - {fileID: 300132811, guid: 9a689b5ec0e09794990bb99c4ac64c99, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 860a48bd31694c1478c61cfeea27d817, type: 2}
+  - {fileID: 11400000, guid: beccf67ede9bcf74591c194d74a6b850, type: 2}
+  - {fileID: 11400000, guid: 45beee821dbf04d4199748dfbdb38931, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 96389b818bcec944091dc4dbf0fece8f, type: 3}

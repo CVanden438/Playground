@@ -1,0 +1,35 @@
+Name,Health,Movespeed,WaitDuration,Damage
+Bandit,100,3,1,5
+Boar,100,3,1,5
+Centaur,100,3,1,5
+Demon,100,3,1,5
+Devil,100,3,1,5
+Dinosaur,100,3,1,5
+Dragon,100,3,1,5
+Fairy Queen,100,3,1,5
+Fairy F,100,3,1,5
+Hero F,100,3,1,5
+Elf F,100,3,1,5
+Fungant,100,3,1,5
+Fungiant,100,3,1,5
+Ghost,100,3,1,5
+Gnome,100,3,1,5
+Goblin,100,3,1,5
+Goblin King,100,3,1,5
+Golem,100,3,1,5
+Hobgoblin,100,3,1,5
+Knight,100,3,1,5
+Lancelot,100,3,1,5
+Fairy M,100,3,1,5
+Hero M,100,3,1,5
+Elf M,100,3,1,5
+Necromancer,100,3,1,5
+Ogre,100,3,1,5
+Orc,100,3,1,5
+Satyr,100,3,1,5
+Skeleton,100,3,1,5
+Slime,100,3,1,5
+Slimeball,100,3,1,5
+Thief,100,3,1,5
+Troll,100,3,1,5
+Warlock,100,3,1,5

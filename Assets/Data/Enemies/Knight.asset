@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  enemyName: Knight
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -100491837, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: 1595621760, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: -373933133, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: 1601566471, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  moveSprites:
+  - {fileID: -785873530, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: -2108539091, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: 101075818, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  - {fileID: 968525012, guid: f3a4081b0592eaf4aa8405b725b04eb2, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 851cd8710726a8b49aa75d301a019beb, type: 2}
+  - {fileID: 11400000, guid: 9af3595abb1f9f949bfc4cd0d9597aa7, type: 2}
+  - {fileID: 11400000, guid: 787ef86d1e6706749854bb5facc19ecd, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: bbc1eedab23d89646bfc694b75cc6f63, type: 3}

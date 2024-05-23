@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  enemyName: Golem
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 1550685446, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: 1951070651, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: -358204099, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: 746253177, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  moveSprites:
+  - {fileID: -256979632, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: 1691502239, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: -556855979, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  - {fileID: -1712386233, guid: ab7322ba26649344288f60c7a670d33e, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: ed6d8c724c9ab2742b213d8aaae59d74, type: 2}
+  - {fileID: 11400000, guid: 174ddfcedac7958439b32be4e57a32c3, type: 2}
+  - {fileID: 11400000, guid: 9f0a644e6de8058418abaeed702ba74a, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 3db327baa23f92e45848d89bce551e9a, type: 3}

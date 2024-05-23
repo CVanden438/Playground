@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Elf M
+  m_EditorClassIdentifier: 
+  enemyName: Elf M
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites: []
+  moveSprites: []
+  attacks:
+  - {fileID: 11400000, guid: f41dd7a85c9324b49acb66891e6ce34d, type: 2}
+  - {fileID: 11400000, guid: c1f98c6dbfb29774e9d9d585a0e9db97, type: 2}
+  - {fileID: 11400000, guid: f59d6a9c62c38554da08df2d82716b01, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: af13a6dddebd31d4eb65bd6e1e464470, type: 3}

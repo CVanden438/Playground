@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Gnome
+  m_EditorClassIdentifier: 
+  enemyName: Gnome
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 1916615901, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: -86803387, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: -1047815493, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: 1248935677, guid: 273e493cea902524196353fd04059713, type: 3}
+  moveSprites:
+  - {fileID: 1865750985, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: -122822750, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: 1439202824, guid: 273e493cea902524196353fd04059713, type: 3}
+  - {fileID: 111954872, guid: 273e493cea902524196353fd04059713, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 7a26517185a73ce419181e9aed3631dc, type: 2}
+  - {fileID: 11400000, guid: 9479c53d3b38abb4c9c873a477f9468c, type: 2}
+  - {fileID: 11400000, guid: 0865cd5f25ebd5648ae1d3260ca4e7ac, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 8ed8960efdcc1e545a67554ae861b6ac, type: 3}

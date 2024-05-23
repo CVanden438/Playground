@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  enemyName: Goblin
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 317445890, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: 600049528, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: 255059915, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: 1393465699, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  moveSprites:
+  - {fileID: 2075366821, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: -1322273037, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: 269937268, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  - {fileID: 356752979, guid: 0113ad53208d0ec4b9d6959900cbd3f0, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: b1ca498873e48b64cb90a56e9980500b, type: 2}
+  - {fileID: 11400000, guid: 0d75b9ec2db6145428977fb045a3f2db, type: 2}
+  - {fileID: 11400000, guid: 7db602b193102244c987a46dbffcf164, type: 2}
+  dropTable: {fileID: 11400000, guid: 27991731708abba46bd6e58f800fad04, type: 2}
+  prefab: {fileID: 5109598724554420387, guid: 514f50ef04b5d794e9eb0cf750094764, type: 3}

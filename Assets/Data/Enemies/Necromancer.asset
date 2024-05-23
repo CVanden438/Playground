@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Necromancer
+  m_EditorClassIdentifier: 
+  enemyName: Necromancer
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -1454148245, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -33884708, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -293684410, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -1771045688, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  moveSprites:
+  - {fileID: -615992629, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -994334057, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -1467660450, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  - {fileID: -178305475, guid: d8f7fb3aba0e2a546bc31a9398664c6b, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: a03a8f44ec48a8140b25cf5788692322, type: 2}
+  - {fileID: 11400000, guid: 74c44d3c35f5d4348bf494b9b4cfa4bb, type: 2}
+  - {fileID: 11400000, guid: be97f7355da19db44a79300f6c483df0, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 6d2ea4596d057544b8aaed27f714c7ab, type: 3}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Devil
+  m_EditorClassIdentifier: 
+  enemyName: Devil
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 437906509, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: -499255468, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: 879241056, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: 1039537294, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  moveSprites:
+  - {fileID: -1404190764, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: 1454367676, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: -641110593, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  - {fileID: 2130574677, guid: 92dc4a5b2b84f4344935bda25ea19532, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 355721fb0c61ce949a3a81a02c243fef, type: 2}
+  - {fileID: 11400000, guid: e0a09b04e11913f4ea277d8b2dfddffd, type: 2}
+  - {fileID: 11400000, guid: e6534768d48007e4cbde48c8c324acc4, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 8152b1d9bd420214ea8e1d715637445a, type: 3}

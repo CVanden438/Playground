@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Troll
+  m_EditorClassIdentifier: 
+  enemyName: Troll
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -477914569, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: -1163898267, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: -1227361633, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: 650476913, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  moveSprites:
+  - {fileID: 1864146037, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: 93316726, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: 1318202157, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  - {fileID: 843639624, guid: b72eaaf2b92231b4f98b4169aecc009f, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: aed4d2c03fba37c40bb601fa00edda46, type: 2}
+  - {fileID: 11400000, guid: 08394199f4324fa4186e35e2432a00c6, type: 2}
+  - {fileID: 11400000, guid: 0f581be3c1f7ed4469e4f62997963823, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 4ec078c39fd24124a9d49aac1cbbdccd, type: 3}

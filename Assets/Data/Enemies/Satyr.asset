@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Satyr
+  m_EditorClassIdentifier: 
+  enemyName: Satyr
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 598391381, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: -1318877964, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: 805467884, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: 148018023, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  moveSprites:
+  - {fileID: 769082726, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: -1614713991, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: -2023839666, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  - {fileID: 1068229817, guid: a002f8c6eb23b5b45a3a8d12ce181992, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 620637598c0537b43b03ff48c9bb2ae0, type: 2}
+  - {fileID: 11400000, guid: 352ec532195c455468e108bbe9097deb, type: 2}
+  - {fileID: 11400000, guid: 891b7123a63aeb34a84607ce74d4f540, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 92d98624447d5554da718ee5e346e64f, type: 3}

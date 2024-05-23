@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412074648608f6d438dad191311adefe, type: 3}
+  m_Name: ArcaneOrbs
+  m_EditorClassIdentifier: 
+  spellName: Arcane Orbs
+  spellDescription: Creates 4 orbiting orbs around player
+  damage: 3
+  manaCost: 10
+  cooldown: 1
+  range: 0
+  spellType: 1
+  prefab: {fileID: 1698326309595103645, guid: 037c97c5c6cd41d4c88ceb205c7d9d3b, type: 3}

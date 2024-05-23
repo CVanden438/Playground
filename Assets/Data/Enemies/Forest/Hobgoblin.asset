@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Hobgoblin
+  m_EditorClassIdentifier: 
+  enemyName: Hobgoblin
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 1056542239, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: 1184479610, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: 1617797254, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: 1669953280, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  moveSprites:
+  - {fileID: 1492925707, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: 606412910, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: -1313995054, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  - {fileID: -1918067033, guid: 85f27d95f1f389e47b075592454d93de, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: c6aab7fc0e0ba134a9f7dcd21fd6cd40, type: 2}
+  - {fileID: 11400000, guid: 56b7f44a5312d314f8848269c8b43cba, type: 2}
+  - {fileID: 11400000, guid: 1bcc9b3b7f1007748b3de0a555d94442, type: 2}
+  dropTable: {fileID: 11400000, guid: 27991731708abba46bd6e58f800fad04, type: 2}
+  prefab: {fileID: 5109598724554420387, guid: fe48fcd4d06114a4e8650bf32b5f4fdb, type: 3}

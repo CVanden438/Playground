@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Fairy M
+  m_EditorClassIdentifier: 
+  enemyName: Fairy M
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites: []
+  moveSprites: []
+  attacks:
+  - {fileID: 11400000, guid: f6486a76ca742f748a6e75171331505c, type: 2}
+  - {fileID: 11400000, guid: 67d7b6213f0296046b7eb01bafb980ce, type: 2}
+  - {fileID: 11400000, guid: 6d10130bdaacfe14ebba8451326c6891, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 4f27d9f61fd1a8b4b9eac125f1c6e98b, type: 3}

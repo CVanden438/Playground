@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c208c1ce21dca8d42a8999cea6679dc7, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  biomeName: 0
+  enemies:
+  - {fileID: 11400000, guid: 0066ca452deb1294e8f90a5f6fc6b38a, type: 2}
+  - {fileID: 11400000, guid: 419aafca42d1cbf489659fb64161c5a5, type: 2}
+  - {fileID: 11400000, guid: 7404dd029d1ca3348a0c01b6e1c3cd4b, type: 2}
+  - {fileID: 11400000, guid: 05d6818f7379ffc4799897680c5c9ae7, type: 2}
+  - {fileID: 11400000, guid: 5a3e18193f9d5b640b629adfab078fe8, type: 2}
+  spawnRate: 5
+  maxSpawns: 5

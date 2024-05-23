@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412074648608f6d438dad191311adefe, type: 3}
+  m_Name: BlazingAura
+  m_EditorClassIdentifier: 
+  spellName: Blazing Aura
+  spellDescription: Creates a damaging aura around the player
+  damage: 3
+  manaCost: 5
+  cooldown: 1
+  range: 0
+  spellType: 1
+  prefab: {fileID: 5893056143444735323, guid: bb887cc2c6c797a4cbfc1f85a8ce76bf, type: 3}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Goblin King
+  m_EditorClassIdentifier: 
+  enemyName: Goblin King
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -1046589263, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: 1711631410, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: -86956609, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: -517826923, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  moveSprites:
+  - {fileID: 505916729, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: -1372814468, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: 1183314291, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  - {fileID: 1262035865, guid: bc7b1eeb5a233bc47bc552b7cb90123f, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 605acc307f1d60d4b84f58cc416a7382, type: 2}
+  - {fileID: 11400000, guid: 89838af1b24cca044b72a8588a802749, type: 2}
+  - {fileID: 11400000, guid: da967598d6dd31b4fb7c883525abdfc1, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: c1ed1819c11ff9e429cb2d5044be5976, type: 3}

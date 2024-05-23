@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Warlock
+  m_EditorClassIdentifier: 
+  enemyName: Warlock
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: 1358653468, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: -1989276341, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: 1755914226, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: 2033714196, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  moveSprites:
+  - {fileID: -190411683, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: -1155462628, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: 786456904, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  - {fileID: -1365355024, guid: 6a61609e011898a4ab58d52e187b6a0b, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 6f6f0745ec6209f4883463a20c3cc69e, type: 2}
+  - {fileID: 11400000, guid: 2e725ec232de0c44c98dcd3d70de18db, type: 2}
+  - {fileID: 11400000, guid: a9c31a30ce2ce4942b20e15baebcdeeb, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 02dbfc646ac7fde4690771aa07ab58bb, type: 3}

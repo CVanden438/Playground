@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15599e098cb84af4c9d3e2897ed13e96, type: 3}
+  m_Name: Iron Sword Recipie
+  m_EditorClassIdentifier: 
+  outputItem: {fileID: 11400000, guid: 3d8b617daeafc964e99d395434b6b5fd, type: 2}
+  inputItems:
+  - item: {fileID: 11400000, guid: ebbe4c6cc69b6814c96d0708a438aa29, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: eb8c4bfffc4bbf54daf7688f2fe55156, type: 2}
+    quantity: 3

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Ogre
+  m_EditorClassIdentifier: 
+  enemyName: Ogre
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -476422911, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: 1289089853, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: 137953622, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: -1125769642, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  moveSprites:
+  - {fileID: 382036092, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: 377479437, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: 543108094, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  - {fileID: 518069716, guid: 61617c7fed42a2243977962588d23bfb, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 72a04d1f86a5a2f44aed3ca278669f61, type: 2}
+  - {fileID: 11400000, guid: 44eab9fda031471408a371ccf25be412, type: 2}
+  - {fileID: 11400000, guid: c1ac191d26ff76b4799b854ab1a3fb5b, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 467ac7fb8b5805c4ca81426a607aaf5f, type: 3}

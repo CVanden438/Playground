@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902e5bd0915ffd4caa2f01688a1aa8f, type: 3}
+  m_Name: Lancelot
+  m_EditorClassIdentifier: 
+  enemyName: Lancelot
+  health: 100
+  moveSpeed: 3
+  waitDuration: 1
+  damage: 5
+  spawnRarity: 1
+  idleSprites:
+  - {fileID: -586299195, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: -1574434583, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: 968318760, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: -2121745081, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  moveSprites:
+  - {fileID: 1005573495, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: -1468490431, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: -457159237, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  - {fileID: -169971467, guid: 03ad5273912c936438fbeea810b5887b, type: 3}
+  attacks:
+  - {fileID: 11400000, guid: 8f9a00332c0fd1a4faeb4f292850b3bd, type: 2}
+  - {fileID: 11400000, guid: 84757e2ef7085ef49befc60cb9f3f4fe, type: 2}
+  - {fileID: 11400000, guid: 828d9166826961d42b80b61ea52bebda, type: 2}
+  dropTable: {fileID: 0}
+  prefab: {fileID: 5109598724554420387, guid: 4536e83655a5c6c4ba5c95fb7ed14c8e, type: 3}
